@@ -27,7 +27,7 @@ Things you may want to cover:
 # Memo
 - Rails入門1-1:3分で掲示板を作ってみよう | プログラミング学習サイト【paizaラーニング】での環境に合わせる
 ## セットアップ
-```
+```bash
 sudo rm -r {app,bin,config,db,lib,log,public,test,tmp,vendor}
 sudo rm .gitignore config.ru Rakefile README.md 
 rm -f Gemfile.lock
@@ -50,7 +50,7 @@ default: &default
 ```
 
 引き続き以下を実行
-```
+```Dockerfile
 docker-compose down
 docker-compose down -v
 docker-compose build --no-cache
@@ -59,7 +59,7 @@ docker-compose run web rails db:create
 ```
 
 ## Articleモデルの作成（Dockrコンテナ内で実行）
-```
+```bash
 rails generate scaffold article content:string
 rails db:migrate
 ```
