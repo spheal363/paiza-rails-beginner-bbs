@@ -58,7 +58,7 @@ docker-compose up -d
 docker-compose run web rails db:create
 ```
 
-## Articleモデルの作成（Dockrコンテナ内で実行）
+## Articleモデルの作成（Dockerコンテナ内で実行）
 ```bash
 rails generate scaffold article content:string
 rails db:migrate
