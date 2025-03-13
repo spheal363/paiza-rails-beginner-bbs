@@ -25,7 +25,7 @@ Things you may want to cover:
 
 ---
 # Memo
-- [Rails入門1-1:3分で掲示板を作ってみよう | プログラミング学習サイト【paizaラーニング】](https://paiza.jp/works/rails/primer/beginner-rails1/14002)での環境に合わせる
+- Rails入門1-1:3分で掲示板を作ってみよう | プログラミング学習サイト【paizaラーニング】での環境に合わせる
 ## セットアップ
 ```bash
 sudo rm -r {app,bin,config,db,lib,log,public,test,tmp,vendor}
