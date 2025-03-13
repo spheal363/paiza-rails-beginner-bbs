@@ -70,4 +70,4 @@ rails db:migrate
 ![image](https://github.com/user-attachments/assets/a27afd0d-a554-443e-82b9-17ace6128122)
 
 ## 参考
-- [Rails をはじめよう: 5.4 Articleモデルを作成する](https://railsguides.jp/v5.2/getting_started.html#article%E3%83%A2%E3%83%87%E3%83%AB%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B)
+- [Rails をはじめよう - Railsガイド: 5.4 Articleモデルを作成する](https://railsguides.jp/v5.2/getting_started.html#article%E3%83%A2%E3%83%87%E3%83%AB%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B)
