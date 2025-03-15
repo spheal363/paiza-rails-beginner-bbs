@@ -36,6 +36,8 @@ docker-compose down
 docker-compose down -v
 docker-compose build --no-cache
 docker-compose up -d
+
+docker-compose run web rails new . --force --database=mysql --skip-bundle --skip-gemfile
 ```
 
 [config/database.yml](config/database.yml)  を以下のように修正
